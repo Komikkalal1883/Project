@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  color: #fff;
+}
+.main {
+  background: url(./image/banner.jpg) no-repeat center center;
+  height: 870px;
+  opacity: 0.9;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+#box01{
+  font-size: 40px;
+}
+.Box-1 {
+  height: 55px;
+  margin-top: 30px;
+  padding-right: 450px;
+}
+.Box-2 {
+  display: flex;
+  gap: 30px;
+  padding-top: 40px;
+}
+select {
+  height: 45px;
+  width: 170px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  font-size: large;
+  opacity: 0.7;
+}
+.Box-3 {
+  background-color: red;
+  color: white;
+  height: 45px;
+  width: 110px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-size: large;
+  text-align: center;
+}
+.Box01 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: Helvetica, sans-serif;
+  padding-top: 250px;
+}
+.Box01-A {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Helvetica, sans-serif;
+  padding-top: 15px;
+}
+.Box01-B {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Helvetica, sans-serif;
+  padding-top: 25px;
+}
+.Box01-C {
+  text-align: center;
+  padding-top: 20px;
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+}
+.Box01-D {
+  height: 75px;
+  width: 480px;
+  border-radius: 7px;
+  opacity: 0.7;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  padding-left: 20px;
+}
+button {
+  width: 240px;
+  border-radius: 7px;
+  background-color: red;
+  color: white;
+  font-size: xx-large;
+}
+.Main02 {
+  height: 10px;
+  background-color: rgb(48, 47, 47);
+}
+.Container02 {
+  height: 720px;
+  background-color: black;
+  opacity: 0.9;
+}
+.Content02 {
+  display: flex;
+  justify-content: space-around;
+}
+.Box02-A {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: Helvetica, sans-serif;
+  padding-top: 250px;
+}
+.Box02-B {
+  color: white;
+  font-size: 1.5rem;
+  font-family: Helvetica, sans-serif;
+  padding-top: 20px;
+}
+.Box02-C {
+  padding-top: 110px;
+}
+.main03 {
+  height: 10px;
+  background-color: rgb(48, 47, 47);
+}
+.Conatiner03 {
+  height: 720px;
+  background-color: black;
+  opacity: 0.9;
+}
+.Content03 {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+}
+.Box03-A {
+  padding-top: 110px;
+}
+.Box03-C {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: Helvetica, sans-serif;
+  padding-top: 250px;
+}
+.Box03-D {
+  color: white;
+  font-size: 1.5rem;
+  font-family: Helvetica, sans-serif;
+  padding-top: 20px;
+}
+.main04 {
+  height: 10px;
+  background-color: rgb(48, 47, 47);
+}
+.Container04 {
+  height: 720px;
+  background-color: black;
+  opacity: 0.9;
+}
+.Content04 {
+  display: flex;
+  justify-content: space-around;
+}
+.Box04-B {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: Helvetica, sans-serif;
+  padding-top: 250px;
+}
+.Box04-C {
+  color: white;
+  font-size: 1.5rem;
+  font-family: Helvetica, sans-serif;
+  padding-top: 20px;
+}
+.Box04-D {
+  padding-top: 140px;
+}
+.main05 {
+  height: 10px;
+  background-color: rgb(48, 47, 47);
+}
+.Container05 {
+  height: 720px;
+  background-color: black;
+  opacity: 0.9;
+}
+.Content05 {
+  display: flex;
+  justify-content: space-around;
+}
+.Box05-A {
+  padding-top: 150px;
+}
+.Box05-C {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: Helvetica, sans-serif;
+  padding-top: 250px;
+}
+.Box05-D {
+  color: white;
+  font-size: 1.5rem;
+  font-family: Helvetica, sans-serif;
+  padding-top: 20px;
+}
+.main06 {
+  height: 10px;
+  background-color: rgb(48, 47, 47);
+}
+.Container06 {
+  height: 1150px;
+  background-color: black;
+  opacity: 0.9;
+}
+.Box06-A {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+.Box06-B {
+  text-align: center;
+  padding-top: 30px;
+}
+.Box06-C {
+  height: 100px;
+  width: 75%;
+  background-color: rgb(48, 47, 47);
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Helvetica, sans-serif;
+  padding-left: 40px;
+}
+.Box06-D {
+  color: white;
+  font-size: 2rem;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+.Box06-E {
+  text-align: center;
+  padding-top: 20px;
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+}
+.Box06-F {
+  height: 75px;
+  width: 480px;
+  border-radius: 7px;
+  opacity: 0.9;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  padding-left: 20px;
+}
+.button01 {
+  width: 240px;
+  border-radius: 7px;
+  background-color: red;
+  color: white;
+  font-size: xx-large;
+}
+.main07 {
+  height: 10px;
+  background-color: rgb(48, 47, 47);
+}
+footer {
+  height: 535px;
+}
+a {
+  color: rgb(199, 192, 192);
+  font-size: x-large;
+}
+.Box07-A {
+  padding-left: 169px;
+  padding-top: 100px;
+}
+.Content07 {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+.Box07-C {
+  height: 45px;
+  width: 170px;
+  text-align: center;
+  background-color: rgb(22, 21, 21);
+  color: white;
+  border-radius: 8px;
+  font-size: x-large;
+  opacity: 0.5;
+}
+.Box07-B .Box07-E {
+  padding-top: 20px;
+}
+.Box07-D {
+  font-size: large;
+}
+.Box07-F .Box07-H {
+  font-size: large;
+}
+.Box07-J {
+  font-size: large;
+}
+.Box07-H {
+  font-size: large;
+}
+.Box07-F {
+  font-size: large;
+}
