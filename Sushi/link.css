@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  color: #ffffff;
+}
+a:hover {
+  color: #cdcdcd;
+}
+.positin {
+  position: relative;
+}
+#img01 {
+  height: 33px;
+  position: absolute;
+  left: 50px;
+}
+#img02 {
+  height: 25px;
+  position: absolute;
+  right: 50px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 85px;
+  background-color: #21243d;
+}
+summary {
+  list-style: none;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+.navbar02 {
+  display: none;
+}
+.main {
+  background: url(./image/banner.png);
+}
+h1 {
+  font-size: 100px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  padding: 120px 50px 0px;
+}
+h1:hover {
+  color: deepskyblue;
+}
+p {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.side-width {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  padding: 10px 50px 25px;
+  width: 45%;
+}
+#bi > button {
+  width: 322px;
+  height: 65px;
+  border-radius: 33px;
+  background-color: #21243d;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 50px 50px;
+}
+.col-10 {
+  background-color: #21243d;
+  position: relative;
+}
+.box01-a {
+  height: 70px;
+  position: relative;
+  left: 250px;
+  top: 0px;
+}
+.box01-b {
+  position: absolute;
+  right: 0px;
+}
+.box01-c {
+  position: absolute;
+  top: 140px;
+  left: 90px;
+}
+.fdfdd {
+  font-size: 64px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.flex01 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.box01-f > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.box01-f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.fff {
+  font-size: 17px;
+  padding: 0px 0px 65px;
+}
+.box01-d {
+  text-align: center;
+  padding: 25px 0px 60px;
+}
+h3 {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.box01-g {
+  position: absolute;
+  right: 0px;
+  top: 300px;
+}
+.box01-h {
+  position: absolute;
+  top: 390px;
+  left: -80px;
+}
+.box01-i {
+  height: 25px;
+  position: absolute;
+  top: 570px;
+  right: 0px;
+}
+.container02 {
+  background-color: #ffd17e;
+}
+.content02 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+.box02-a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.box02-b {
+  position: absolute;
+  top: 30px;
+  left: -90px;
+}
+.box02-c {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin: 120px;
+}
+.flex-02 > h2 {
+  font-size: 75px;
+  color: #21243d;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.flex-02 > p {
+  color: #21243d;
+  margin: 10px 0px 50px;
+}
+#ns {
+  width: 322px;
+  height: 65px;
+  border-radius: 32px;
+  background-color: #21243d;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+#box02-d {
+  position: absolute;
+  top: 450px;
+  right: 30px;
+}
+.box02-f {
+  position: absolute;
+  left: 0px;
+  bottom: 40px;
+}
+.container03 {
+  background-color: #21243d;
+}
+.col-03 {
+  position: relative;
+}
+.fdi {
+  position: absolute;
+  left: 80px;
+}
+.fde {
+  position: absolute;
+  right: 60px;
+  top: 40px;
+}
+.col-03 > h2 {
+  font-size: 62px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 70px 0px 25px;
+}
+.col-03 > p {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.fded {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+.flex-03{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 70px;
+  padding-bottom: 170px;
+}
+.con03-a {
+  width: 274px;
+  height: 275px;
+  border-radius: 138px;
+  border: 5px solid #ffffff;
+}
+.con03-a > p {
+  padding-top: 20px;
+  font-size: 75px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+.vsa {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+}
+.foa{
+  position: absolute;
+  right: 100px;
+  bottom: 70px;
+}
+.fdio{
+  position: absolute;
+  right: 400px;
+  bottom: 70px;
+}
+.fdie{
+  position: absolute;
+  left: 50px;
+  bottom: 0px;
+}
