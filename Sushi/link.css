@@ -249,7 +249,7 @@ h3 {
   top: 150px;
   left: 100px;
 }
-.flex-03{
+.flex-03 {
   display: flex;
   justify-content: center;
   gap: 100px;
@@ -274,18 +274,64 @@ h3 {
   font-weight: 700;
   text-align: center;
 }
-.foa{
+.foa {
   position: absolute;
   right: 100px;
   bottom: 70px;
 }
-.fdio{
+.fdio {
   position: absolute;
   right: 400px;
   bottom: 70px;
 }
-.fdie{
+.fdie {
   position: absolute;
   left: 50px;
   bottom: 0px;
+}
+#dsfsd {
+  width: 130%;
+}
+.flex-0204 {
+  margin-left: 150px;
+}
+.flex-0204 > h2 {
+  font-size: 75px;
+  color: #21243d;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.flex-0204 > p {
+  color: #21243d;
+  margin: 10px 0px 50px;
+}
+.conifay {
+  width: 100%;
+}
+.container05 {
+  background: url(./image/Place\ img\ 3.png) center center no-repeat;
+  height: 650px;
+}
+.ereee {
+  padding-top: 100px;
+  padding-left: 520px;
+  padding-bottom: 20px;
+}
+#confey {
+  border-radius: 50%;
+}
+.col-05 > p {
+  font-size: 42px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.col-05 > h3 {
+  padding-top: 30px;
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
 }
