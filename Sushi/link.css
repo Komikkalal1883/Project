@@ -314,7 +314,7 @@ h3 {
 }
 .ereee {
   padding-top: 100px;
-  padding-left: 520px;
+  padding-left: 550px;
   padding-bottom: 20px;
 }
 #confey {
@@ -335,3 +335,172 @@ h3 {
   font-family: "Montserrat";
   text-align: center;
 }
+.container06 {
+  background-color: #ffd17e;
+  height: 690px;
+}
+.col-06 {
+  position: relative;
+}
+.col-06 > h2 {
+  font-size: 75px;
+  color: #21243d;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+.rdj {
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+.rdjl {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.rdjkl {
+  position: absolute;
+  top: 80px;
+  right: 290px;
+}
+.col-06 > p {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+  color: #21243d;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  padding-bottom: 20px;
+}
+#email {
+  width: 659px;
+  height: 63px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 340px;
+  opacity: 0.502;
+  font-size: 25px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Montserrat";
+  padding: 30px;
+}
+.col-06 > button {
+  position: absolute;
+  right: 300px;
+  top: 343px;
+  width: 222px;
+  height: 65px;
+  border-radius: 33px;
+  background-color: #21243d;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  cursor: pointer;
+}
+.cdcdw {
+  position: absolute;
+  top: 460px;
+  right: 500px;
+  padding-bottom: 40px;
+}
+.dde {
+  position: absolute;
+  top: 380px;
+  right: 70px;
+}
+.sdsd {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
+.container07 {
+  background-color: #111111;
+  height: 450px;
+}
+.col-07 {
+  display: flex;
+  justify-content: space-around;
+}
+h4 {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  padding: 30px 0px;
+}
+#vdd {
+  padding-left: 30px;
+}
+.cdsds > p {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  padding-left: 30px;
+}
+.cdsds {
+  width: 35%;
+}
+.sdssk {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  gap: 140px;
+}
+[class*="box07"] > p {
+  font-size: 20px;
+  line-height: 45px;
+}
+.icon {
+  padding: 25px 30px;
+  letter-spacing: 10px;
+}
+
+/* meadia query */
+
+@media (max-width: 576px) { 
+
+  .navbar02 {
+    display: inline;
+  }
+  .navbar{
+    display: none;
+  }
+  summary{
+    font-size: 40px;
+    position: absolute;
+    color: aqua;
+    right: 100px;
+  }
+  .main-container{
+    overflow: hidden;
+  }
+  .main {
+    background: url(./image/banner.png) center center no-repeat;
+  }
+  details{
+    position: absolute;
+    right: 50px;
+  }
+  .menu{
+    position: absolute;
+    top: 50px;
+  }
+  h1 {
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding: 40px 0px 0px;
+  }
+ 
