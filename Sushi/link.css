@@ -468,31 +468,30 @@ h4 {
 
 /* meadia query */
 
-@media (max-width: 576px) { 
-
+@media (max-width: 576px) {
   .navbar02 {
     display: inline;
   }
-  .navbar{
+  .navbar {
     display: none;
   }
-  summary{
+  summary {
     font-size: 40px;
     position: absolute;
     color: aqua;
     right: 100px;
   }
-  .main-container{
+  .main-container {
     overflow: hidden;
   }
   .main {
     background: url(./image/banner.png) center center no-repeat;
   }
-  details{
+  details {
     position: absolute;
     right: 50px;
   }
-  .menu{
+  .menu {
     position: absolute;
     top: 50px;
   }
@@ -503,4 +502,4 @@ h4 {
     font-family: "Montserrat";
     padding: 40px 0px 0px;
   }
- 
+}
