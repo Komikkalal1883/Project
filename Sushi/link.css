@@ -170,6 +170,13 @@ h3 {
   gap: 100px;
   align-items: center;
 }
+.content023 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
 .box02-a {
   position: absolute;
   top: 0px;
@@ -197,6 +204,16 @@ h3 {
   margin: 10px 0px 50px;
 }
 #ns {
+  width: 322px;
+  height: 65px;
+  border-radius: 32px;
+  background-color: #21243d;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+#nsd {
   width: 322px;
   height: 65px;
   border-radius: 32px;
@@ -296,7 +313,7 @@ h3 {
   margin-left: 150px;
 }
 .flex-0204 > h2 {
-  font-size: 75px;
+  font-size: 70px;
   color: #21243d;
   font-weight: 700;
   font-family: "Montserrat";
@@ -479,7 +496,8 @@ h4 {
     font-size: 40px;
     position: absolute;
     color: aqua;
-    right: 100px;
+    right: -20px;
+    top: 55px;
   }
   .main-container {
     overflow: hidden;
@@ -493,13 +511,348 @@ h4 {
   }
   .menu {
     position: absolute;
-    top: 50px;
+    top: 120px;
+    gap: 15px;
+    height: 220px;
+    right: -47px;
+    background-color: black;
+    width: 180px;
+    align-items: center;
   }
   h1 {
-    font-size: 80px;
+    padding: 20px 20px 0px;
+  }
+  .side-width {
+    padding: 10px 20px 25px;
+    width: 70%;
+  }
+  #bi > button {
+    width: 200px;
+    height: 55px;
+    border-radius: 33px;
+    background-color: #21243d;
+    font-size: 18px;
+    text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
     font-family: "Montserrat";
-    padding: 40px 0px 0px;
+    text-align: center;
+    margin: 50px 20px 50px;
   }
+  .raja {
+    display: none;
+  }
+  .fdfdd {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .box01-d {
+    font-size: 20px;
+  }
+  .flex01 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .content02 {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .flex-02 > h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .flex-02 > p {
+    text-align: center;
+    font-size: 20px;
+  }
+  #ns {
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+    margin-left: 190px;
+    margin-bottom: 50px;
+  }
+  #nsd {
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+  }
+  .col-03 > h2 {
+    font-size: 50px;
+  }
+  .col-03 > p {
+    font-size: 20px;
+    width: 90%;
+  }
+  .flex-03 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .content023 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 0px;
+    align-items: center;
+  }
+  .flex-0204 > h2 {
+    font-size: 50px;
+    padding-right: 100px;
+    text-align: center;
+  }
+  #dsfsd {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    padding-right: 100px;
+  }
+  .container05 {
+    background: url(./image/Place\ img\ 3.png);
+    height: 650px;
+  }
+  .ereee {
+    padding-top: 100px;
+    padding-left: 180px;
+    padding-bottom: 20px;
+  }
+  .col-05 > p {
+    font-size: 25px;
+  }
+  .col-05 > h3 {
+    font-size: 35px;
+  }
+  .col-06 > h2 {
+    font-size: 40px;
+  }
+  .col-06 > p {
+    font-size: 20px;
+    width: 100%;
+  }
+  #email {
+    width: 359px;
+    height: 33px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 20px;
+  }
+  .col-06 > button {
+    position: absolute;
+    right: 170px;
+    top: 390px;
+    width: 222px;
+    height: 65px;
+    font-size: 22px;
+  }
+  .col-07 {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  .cdsds > p {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-left: 30px;
+  }
+  [class*="box07"] > p {
+    font-size: 10px;
+    line-height: 30px;
+  }
+  .sdssk {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .icon {
+    display: flex;
+    padding: 25px 30px;
+    letter-spacing: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar02 {
+    display: inline;
+  }
+  .navbar {
+    display: none;
+  }
+  summary {
+    font-size: 40px;
+    position: absolute;
+    color: aqua;
+    right: -20px;
+    top: 55px;
+  }
+  .main-container {
+    overflow: hidden;
+  }
+  .main {
+    background: url(./image/banner.png) center center no-repeat;
+  }
+  details {
+    position: absolute;
+    right: 50px;
+  }
+  .menu {
+    position: absolute;
+    top: 120px;
+    gap: 15px;
+    height: 220px;
+    right: -47px;
+    background-color: black;
+    width: 180px;
+    align-items: center;
+  }
+  h1 {
+    padding: 20px 20px 0px;
+  }
+  .side-width {
+    padding: 10px 20px 25px;
+    width: 70%;
+  }
+  #bi > button {
+    width: 200px;
+    height: 55px;
+    border-radius: 33px;
+    background-color: #21243d;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 50px 20px 50px;
+  }
+  .raja {
+    display: none;
+  }
+  .fdfdd {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .box01-d {
+    font-size: 20px;
+  }
+  .flex01 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .content02 {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .flex-02 > h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .flex-02 > p {
+    text-align: center;
+    font-size: 20px;
+  }
+  #ns {
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+    margin-left: 285px;
+    margin-bottom: 50px;
+  }
+  #nsd {
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+  }
+  .col-03 > h2 {
+    font-size: 50px;
+  }
+  .col-03 > p {
+    font-size: 20px;
+    width: 90%;
+  }
+  .flex-03 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .content023 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 0px;
+    align-items: center;
+  }
+  .flex-0204 > h2 {
+    font-size: 50px;
+    padding-right: 100px;
+    text-align: center;
+  }
+  #dsfsd {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    padding-right: 100px;
+  }
+  .ereee {
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-bottom: 20px;
+  }
+  .col-05 > p {
+    font-size: 25px;
+  }
+  .col-06 > p {
+    font-size: 18px;
+  }
+
+  element.style {
+  }
+  #email {
+    width: 415px;
+    height: 47px;
+    margin-top: 25px;
+    margin-left: 132px;
+    font-size: 20px;
+    padding: 30px;
+  }
+  .col-06 > button {
+    position: absolute;
+    right: 115px;
+    top: 332px;
+    width: 222px;
+    height: 65px;
+  }
+  .sdssk {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  .cdsds > p {
+    font-size: 16px;
+  }
+  [class*="box07"] > p {
+    font-size: 18px;
+}
 }
