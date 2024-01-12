@@ -17,12 +17,12 @@ nav {
   display: flex;
   justify-content: space-around;
 }
-#box01{
-  font-size: 40px;
+#box01 {
+  font-size: 2.5rem;
 }
 .Box-1 {
-  height: 55px;
-  margin-top: 30px;
+  height: 35px;
+  margin-top: 40px;
   padding-right: 450px;
 }
 .Box-2 {
@@ -31,8 +31,8 @@ nav {
   padding-top: 40px;
 }
 select {
-  height: 45px;
-  width: 170px;
+  height: 35px;
+  width: 150px;
   text-align: center;
   background-color: black;
   color: white;
@@ -43,8 +43,8 @@ select {
 .Box-3 {
   background-color: red;
   color: white;
-  height: 45px;
-  width: 110px;
+  height: 35px;
+  width: 90px;
   border-radius: 8px;
   font-family: sans-serif;
   font-size: large;
@@ -53,24 +53,23 @@ select {
 .Box01 {
   color: white;
   text-align: center;
-  font-size: 4rem;
   font-weight: 900;
   font-family: Helvetica, sans-serif;
-  padding-top: 250px;
+  padding-top: 205px;
 }
 .Box01-A {
   color: white;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-family: Helvetica, sans-serif;
   padding-top: 15px;
 }
 .Box01-B {
   color: white;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-family: Helvetica, sans-serif;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 .Box01-C {
   text-align: center;
@@ -80,8 +79,8 @@ select {
   justify-content: center;
 }
 .Box01-D {
-  height: 75px;
-  width: 480px;
+  height: 61px;
+  width: 458px;
   border-radius: 7px;
   opacity: 0.7;
   background-color: black;
@@ -111,19 +110,22 @@ button {
 }
 .Box02-A {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
   font-family: Helvetica, sans-serif;
   padding-top: 250px;
 }
 .Box02-B {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: Helvetica, sans-serif;
   padding-top: 20px;
 }
 .Box02-C {
-  padding-top: 110px;
+  padding-top: 120px;
+}
+#imgbox-02 {
+  height: 350px;
 }
 .main03 {
   height: 10px;
@@ -144,14 +146,14 @@ button {
 }
 .Box03-C {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
   font-family: Helvetica, sans-serif;
   padding-top: 250px;
 }
 .Box03-D {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: Helvetica, sans-serif;
   padding-top: 20px;
 }
@@ -170,14 +172,14 @@ button {
 }
 .Box04-B {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
   font-family: Helvetica, sans-serif;
   padding-top: 250px;
 }
 .Box04-C {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: Helvetica, sans-serif;
   padding-top: 20px;
 }
@@ -202,14 +204,14 @@ button {
 }
 .Box05-C {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
   font-family: Helvetica, sans-serif;
   padding-top: 250px;
 }
 .Box05-D {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: Helvetica, sans-serif;
   padding-top: 20px;
 }
@@ -218,13 +220,12 @@ button {
   background-color: rgb(48, 47, 47);
 }
 .Container06 {
-  height: 1150px;
   background-color: black;
   opacity: 0.9;
 }
 .Box06-A {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
   font-family: Helvetica, sans-serif;
   text-align: center;
@@ -234,31 +235,51 @@ button {
   text-align: center;
   padding-top: 30px;
 }
-.Box06-C {
-  height: 100px;
-  width: 75%;
+.Box06-C,
+.Box06-D,
+.Box06-E,
+.Box06-F,
+.Box06-G,
+.Box06-H {
+  height: 60px;
+  width: 820px;
+  color: rgb(84, 82, 82);
   background-color: rgb(48, 47, 47);
   opacity: 0.8;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 400;
   font-family: Helvetica, sans-serif;
   padding-left: 40px;
+  text-align: start;
+  margin-top: 10px;
 }
-.Box06-D {
+.box-main01,.box-main02,.box-main03,.box-main04,.box-main05,.box-main06{
+  display: none;
+}
+
+.set{
+  position: absolute;
+  font-size: 60px;
+  right: 285px;
+}
+.Box06-DA {
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
+  font-weight: 900;
   font-family: Helvetica, sans-serif;
   text-align: center;
-  padding-top: 50px;
+  margin-top: 20px;
 }
-.Box06-E {
+
+.Box06-EA {
   text-align: center;
   padding-top: 20px;
   display: flex;
   gap: 9px;
   justify-content: center;
+  margin-bottom: 50px;
 }
-.Box06-F {
+.Box06-FB {
   height: 75px;
   width: 480px;
   border-radius: 7px;
@@ -322,4 +343,134 @@ a {
 }
 .Box07-F {
   font-size: large;
+}
+
+
+/* @media Query */
+@media (max-width: 576px) {
+  .body {
+    overflow: hidden;
+  }
+  nav {
+    justify-content: center;
+  }
+  #box01 {
+    font-size: 25px;
+  }
+  .Box01-A {
+    font-size: 1rem;
+  }
+  .main {
+    width: 705px;
+    height: 870px;
+  }
+  .Box-1 {
+    height: 35px;
+    margin-top: 40px;
+    padding-right: 160px;
+  }
+  .Box01-B {
+    font-size: 1rem;
+  }
+  .Box01-D {
+    height: 54px;
+    width: 266px;
+    border-radius: 9px;
+    opacity: 0.7;
+    background-color: black;
+    color: white;
+    font-size: small;
+    padding-left: 20px;
+  }
+  button {
+    width: 177px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    font-size: large;
+    height: 50px;
+  }
+  #imgbox-02 {
+    height: 201px;
+    margin-top: 70px;
+  }
+  .Box02-A {
+    font-size: 1.5rem;
+  }
+  .Box02-B {
+    font-size: 0.8rem;
+  }
+  .Content02 {
+    display: flex;
+    justify-content: end;
+  }
+  .Main02 {
+    width: 710px;
+  }
+  .main03 {
+    width: 710px;
+  }
+  .Box03-C {
+    font-size: 1.5rem;
+    padding-top: 217px;
+  }
+  .Box03-D {
+    font-size: 0.8rem;
+  }
+  .main04 {
+    width: 710px;
+  }
+  .Box04-B {
+    font-size: 1.5rem;
+  }
+  .Box04-C {
+    font-size: 0.8rem;
+  }
+  .main05 {
+    width: 710px;
+  }
+  .Box05-C {
+    font-size: 1.5rem;
+  }
+  .Box05-D {
+    font-size: 0.8rem;
+  }
+  .Box06-A {
+    font-size: 1.5rem;
+  }
+  .Box06-D {
+    font-size: 1rem;
+  }
+  .Box06-F {
+    height: 50px;
+  }
+  .main06 {
+    width: 710px;
+  }
+  .main07 {
+    width: 710px;
+  }
+  .Content07 {
+    padding: 1px;
+  }
+  .Content04 {
+    display: flex;
+    justify-content: end;
+  }
+  .Box07-A {
+    padding-bottom: 50px;
+    padding-left: 20px;
+  }
+  .Box07-C {
+    height: 30px;
+    width: 136px;
+    font-size: large;
+  }
+  .Container06 {
+    width: 710px;
+  }
+  footer {
+    width: 710px;
+    height: 535px;
+  }
 }
